@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    background-color: #D3D3FF;
+    padding: 10px;
+}
+
+.menu {
+    background-color: #c6E2FF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px;
+}
+
+.lista {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.item {
+    margin: 5px;
+}
+
+.item:hover {
+    background-color: #E99D4E;
+}
+
+.link {
+    color: #39413B;
+    text-decoration: none;
+}
+
+.principal {
+    margin-top: 75px;
+}
